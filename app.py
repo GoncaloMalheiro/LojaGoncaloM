@@ -27,7 +27,6 @@ def route():
             usr.gravar(v1, v2, v3)
     return render_template('registo.html', erro=erro)
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
